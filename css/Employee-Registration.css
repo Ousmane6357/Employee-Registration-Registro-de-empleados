@@ -1,0 +1,18 @@
+body{
+    background-color: steelblue;
+}
+
+
+button{
+    background-color: rgba(0, 0, 255, 0.563);
+    color: white;
+    font-size: 15px;
+}
+
+h2{
+    color: rgb(174, 43, 20);
+}
+
+p{
+    color: azure;
+}

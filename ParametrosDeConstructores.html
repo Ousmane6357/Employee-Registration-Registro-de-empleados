@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        function Perro(raza, edad){
+            this.raza = raza;
+            this.edad = edad;
+            this.patas = 4;
+            this.ladrar = function (){
+                console.log('Guau');
+            };
+        };
+
+        let polo = new Perro('Loca', 5);
+        let migos = new Perro('Mira', 8);
+        let bilan = new Perro('google', 2);
+
+        function empleado(nombre, apellido, edad, carga){
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+            this.carga = carga;
+            this.presentarse = function(){
+                console.log(`Mi nombre es  ${this.nombre} ${this.apellido} , y tengo ${this.edad}, soy ${this.carga}`)
+            }
+
+        }
+    </script>
+</body>
+</html>
